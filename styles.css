@@ -1,10 +1,3 @@
-/* 
-    Note to self: 
-    Preview the webpage at 80% 
-    size when comparing with the 
-    layout reference.
-*/
-
 html {
     box-sizing: border-box;
 }
@@ -23,10 +16,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 button {
-    color: #e5e7eb;
+    color: #f9faf8;
     background-color: #3882f6;
-    padding: 8px 24px;
+    padding: 8px 30px;
     border-radius: 8px;
     font-size: 18px;
 }
@@ -39,16 +33,16 @@ button {
 }
 
 .container-opening {
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
 }
 
 .header {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1 {
@@ -68,9 +62,9 @@ button {
 
 .container-hero {
     display: flex;
-    padding: 108px 0;
-    justify-content: space-between;
     gap: 64px;
+    justify-content: space-between;
+    padding: 108px 0;
 }
 
 .hero-text {
@@ -84,8 +78,8 @@ button {
 }
 
 .hero-text p {
-    font-size: 18px;
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .hero-text button {
@@ -94,21 +88,21 @@ button {
 }
 
 .hero-image {
+    align-items: center;
     background-color: #6d747d;
     color: #e5e7eb;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-basis: 512px;
     flex-grow: 1;
+    justify-content: center;
 }
 
 .container-info {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
     padding-bottom: 75px;
+    padding-top: 15px;
 }
 
 .container-info h2 {
@@ -123,9 +117,9 @@ button {
 }
 
 .info-panel {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .info-panel p {
@@ -136,17 +130,19 @@ button {
 }
 
 .info-image {
-    outline: 8px solid #3882f6;
     border-radius: 10px;
-    width: 200px;
     height: 200px;
+    outline: 8px solid #3882f6;
+    width: 200px;
 }
 
 .container-quote {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 150px 600px;
 }
 
 .quote-text {
@@ -154,24 +150,30 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    margin: 0;
 }
 
 .quote-source-text {
+    align-self: flex-end;
     color: #1f2937;
     font-size: 24px;
     font-weight: 900;
-    align-self: flex-end;
+    margin: 0;
 }
 
 .container-action {
-    display: flex;
     align-content: center;
+    display: flex;
     justify-content: center;
+    padding: 100px;
 }
 
 .action-banner {
-    display: flex;
     background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    gap: 140px;
+    padding: 40px 130px;
 }
 
 .action-banner-text {
@@ -182,6 +184,7 @@ button {
 .action-text {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .action-subtext {
@@ -191,14 +194,15 @@ button {
 
 .action-banner button {
     border: #f9faf8 solid 3px;
+    font-weight: 600;
 }
 
 .footer {
-    display: flex;
+    align-items: center;
     background-color: #1f2937;
     color: #e5e7eb;
+    display: flex;
     font-size: 18px;
     justify-content: center;
-    align-items: center;
     padding: 48px;
 }
